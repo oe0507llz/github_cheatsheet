@@ -1,6 +1,6 @@
 # github_cheatsheet
 
-### How to initialize a new git repo to an existing folder (not empty)
+### How to initialize a new git repo to an existing folder (not empty)?
 
 1. Create a new repo on github
 
@@ -14,3 +14,6 @@ git add .
 git commit -m 'init commit'
 git push --set-upstream origin master
 ```
+
+### How to deal with "refusing to merge unrelated histories" error?
+`git pull --allow-unrelated-histories`
