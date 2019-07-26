@@ -17,3 +17,6 @@ git push --set-upstream origin master
 
 ### How to deal with "refusing to merge unrelated histories" error?
 `git pull --allow-unrelated-histories`
+
+### git: diff between one file in local repo and remote repo
+`git diff origin/master -- README.md`
