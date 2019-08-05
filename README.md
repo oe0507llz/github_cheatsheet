@@ -20,3 +20,12 @@ git push --set-upstream origin master
 
 ### git: diff between one file in local repo and remote repo
 `git diff origin/master -- README.md`
+
+## Temporarily switch to a different commit
+If you want to temporarily go back to it, fool around, then come back to where you are, all you have to do is check out the 
+desired commit:
+
+```bash
+# This will detach your HEAD, that is, leave you with no branch checked out:
+git checkout 1d3d7fcdc
+```
