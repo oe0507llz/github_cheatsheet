@@ -21,7 +21,7 @@ git push --set-upstream origin master
 ### git: diff between one file in local repo and remote repo
 `git diff origin/master -- README.md`
 
-## Temporarily switch to a different commit
+### Temporarily switch to a different commit
 If you want to temporarily go back to it, fool around, then come back to where you are, all you have to do is check out the 
 desired commit:
 
@@ -29,3 +29,6 @@ desired commit:
 # This will detach your HEAD, that is, leave you with no branch checked out:
 git checkout 1d3d7fcdc
 ```
+
+### Renaming a branch in github
+https://stackoverflow.com/questions/9524933/renaming-a-branch-in-github
