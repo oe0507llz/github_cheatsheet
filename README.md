@@ -60,3 +60,25 @@ Everything since then will be deleted once you push again. To do that, the next 
 ```
 git push --force
 ```
+
+#### How to switch branches?
+When creating from scratch 
+```
+git clone xxx
+cd xxx
+git checkout chinese-translation
+```
+If we work with an existing repo
+```
+git pull
+git checkout chinese-translation
+git pull
+```
+If we would like to switch between master branch and feature branch
+```
+git checkout chinese-translation
+git checkout master
+git checkout chinese-translation
+git checkout master
+...
+```
