@@ -82,3 +82,8 @@ git checkout chinese-translation
 git checkout master
 ...
 ```
+
+#### How do you attach a new pull request to an existing issue on github?
+Simply reference the issue in your commit message using any of the supported keywords:
+`close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved`
+For example: `this commit fixes #116`
