@@ -83,6 +83,13 @@ git checkout master
 ...
 ```
 
+#### Working with Feature Branch
+1. Every time before any sort of work in the local repo, always use `git pull` to pull the latest updates from remote to local
+
+2. Always create feature branches based on the latest master branch (after `git pull`) by using `git checkout feature-branch-name`
+
+3. If there are some new updates from others’ pull requests and merged into master branch, use `git merge master` on your feature branch to merge the latest updates from master branch into your own feature branch.
+
 #### How do you attach a new pull request to an existing issue on github?
 Simply reference the issue in your commit message using any of the supported keywords:
 `close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved`
