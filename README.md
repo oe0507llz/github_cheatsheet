@@ -94,3 +94,18 @@ git checkout master
 Simply reference the issue in your commit message using any of the supported keywords:
 `close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved`
 For example: `this commit fixes #116`
+
+#### Rollback to an old Git commit in github
+```
+git checkout [revision] .
+```
+where `[revision]` is the commit hash (for example: 12345678901234567890123456789012345678ab).
+
+Don't forget the `.` at the end, very important. This will apply changes to the whole tree. You should execute this command in the git project root. If you are in any sub directory, then this command only changes the files in the current directory. Then commit and you should be good.
+
+You can undo this by
+```
+git reset --hard 
+```
+that will delete all modifications from the working directory and staging area.
+```
