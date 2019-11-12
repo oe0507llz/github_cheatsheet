@@ -108,9 +108,9 @@ You can undo this by
 git reset --hard 
 ```
 that will delete all modifications from the working directory and staging area.
-```
 
-#### Checkout a branch from a fork with a pull request: https://github.community/t5/How-to-use-Git-and-GitHub/Checkout-a-branch-from-a-fork/td-p/77
+#### Checkout a branch from a fork with a pull request
+https://github.community/t5/How-to-use-Git-and-GitHub/Checkout-a-branch-from-a-fork/td-p/77
 ```
 git ls-remote --refs origin
 git fetch origin pull/123/head:pr/123 && git checkout pr/123
