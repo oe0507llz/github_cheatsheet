@@ -115,3 +115,8 @@ https://github.community/t5/How-to-use-Git-and-GitHub/Checkout-a-branch-from-a-f
 git ls-remote --refs origin
 git fetch origin pull/123/head:pr/123 && git checkout pr/123
 ```
+
+#### How to change remote git repository
+https://www.xenovation.com/blog/source-control-management/git/how-to-change-remote-git-repository 
+<br>List existing remotes: `git remote -v`
+<br>Change the remote repo: `git remote set-url origin https://github.com/oe0507llz/github_cheatsheet.git`
