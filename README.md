@@ -120,3 +120,10 @@ git fetch origin pull/123/head:pr/123 && git checkout pr/123
 https://www.xenovation.com/blog/source-control-management/git/how-to-change-remote-git-repository 
 <br>List existing remotes: `git remote -v`
 <br>Change the remote repo: `git remote set-url origin https://github.com/oe0507llz/github_cheatsheet.git`
+
+#### How can I make an older commit HEAD in Git?
+https://stackoverflow.com/questions/13956207/how-can-i-make-an-older-commit-head-in-git
+```
+git reset --hard <commit-hash-id-to-put-as-head>
+git push -f
+```
