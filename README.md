@@ -127,3 +127,9 @@ https://stackoverflow.com/questions/13956207/how-can-i-make-an-older-commit-head
 git reset --hard <commit-hash-id-to-put-as-head>
 git push -f
 ```
+
+#### Removing Files from a Git Repository Without Actually Deleting Them
+https://danielmiessler.com/blog/removing-files-from-a-git-repository-without-actually-deleting-them/
+```
+git rm -rf --cached $FILES
+```
