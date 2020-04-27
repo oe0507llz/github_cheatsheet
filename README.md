@@ -133,3 +133,6 @@ https://danielmiessler.com/blog/removing-files-from-a-git-repository-without-act
 ```
 git rm -rf --cached $FILES
 ```
+
+#### How can I add an empty directory to a Git repository?
+https://stackoverflow.com/questions/115983/how-can-i-add-an-empty-directory-to-a-git-repository
