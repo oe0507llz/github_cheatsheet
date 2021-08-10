@@ -1,5 +1,10 @@
 # github_cheatsheet
 
+#### git clone not working with error “ To access this repository, you must use the HTTPS remote with a personal access token or SSH with an SSH key”
+https://stackoverflow.com/questions/67879615/git-clone-not-working-with-error-to-access-this-repository-you-must-use-the-h
+https://stackoverflow.com/questions/51634406/git-push-is-not-working-error-you-must-use-a-personal-access-token-or-ssh-key/60146283#60146283
+
+
 #### How to initialize a new git repo to an existing folder (not empty)?
 
 1. Create a new repo on github
