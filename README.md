@@ -1,7 +1,10 @@
 # github_cheatsheet
 
+#### Support for password authentication was removed. Please use a personal access token instead
+https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+
 #### git clone not working with error “ To access this repository, you must use the HTTPS remote with a personal access token or SSH with an SSH key”
-https://stackoverflow.com/questions/67879615/git-clone-not-working-with-error-to-access-this-repository-you-must-use-the-h
+https://stackoverflow.com/questions/67879615/git-clone-not-working-with-error-to-access-this-repository-you-must-use-the-h <br>
 https://stackoverflow.com/questions/51634406/git-push-is-not-working-error-you-must-use-a-personal-access-token-or-ssh-key/60146283#60146283
 
 
