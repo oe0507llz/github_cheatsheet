@@ -17,10 +17,10 @@ https://stackoverflow.com/questions/51634406/git-push-is-not-working-error-you-m
 cd my/folder/
 git init
 git remote add origin https:path/to/the/repository.git
-git pull origin master
+git pull origin main
 git add .
 git commit -m 'init commit'
-git push --set-upstream origin master
+git push --set-upstream origin main
 ```
 
 #### How to deal with "refusing to merge unrelated histories" error?
