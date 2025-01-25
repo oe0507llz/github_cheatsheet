@@ -74,7 +74,7 @@ When creating from scratch
 ```
 git clone xxx
 cd xxx
-git checkout chinese-translation
+git checkout -b chinese-translation
 ```
 If we work with an existing repo
 ```
